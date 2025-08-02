@@ -1,6 +1,4 @@
-.subscribe {
-    padding: 64px 0px;
-}
+
 .subscribe-title {
     font-family: "Aboreto", sans-serif;
 font-weight: 400;
@@ -11,13 +9,8 @@ color: #0b0803;
 }
 
 .subscribe .subscribe-container {
-   max-width: 320px;
-      margin: 0 auto;
-    padding: 0px 16px;
- 
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 32px;
 }
 .subscribe-title {
@@ -40,7 +33,7 @@ color: #0b0803;
     border: 1px solid rgba(11, 8, 3, 0.15);
 border-radius: 12px;
 padding: 8px 12px;
-width: 288px;
+max-width: 288px;
 height: 40px;
 font-family: "Quicksand", sans-serif;
 font-weight: 400;
@@ -86,7 +79,7 @@ color: #7f1c1c;
    border-radius: 100px;
    border: none;
 padding: 10px 24px;
-width: 288px;
+max-width: 288px;
 height: 44px;
 box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
 background: #6f4e37;
@@ -110,9 +103,10 @@ color: #0b0803;
 }
 
 .subscribe-image {
-    border-radius: 40px;
-     max-width: 288px;
+
+    width: 100%;
 }
+
 /* =================tablet========================= */
 @media (min-width: 768px) and (max-width: 1439px) {
     .subscribe .subscribe-container {
@@ -133,7 +127,7 @@ align-items: start;
         row-gap: 0px;
     }
     .subscribe-image {
-        max-width: 704px;
+        width: 704px;
     }
 }
 
@@ -162,7 +156,7 @@ align-items: start;
     width: 158px;
 }
 .subscribe-image {
-    max-width: 640px;
+    width: 640px;
 }
 }
 
