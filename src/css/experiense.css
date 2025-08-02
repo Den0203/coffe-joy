@@ -1,0 +1,117 @@
+.experience-section {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.experience-div {
+  position: relative;
+  border-radius: 32px;
+}
+
+/* Mobile */
+.experience-section {
+  padding: 64px 16px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  min-width: 288px;
+  max-width: 374px;
+}
+.experience-title {
+  font-family: 'Aboreto', sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+.experience-title-description {
+  font-size: 18px;
+  text-align: center;
+}
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.experience-item-img {
+  width: 288px;
+  border-radius: 32px;
+  object-fit: cover;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+  .experience-section {
+    padding: 64px 32px;
+  }
+  .container {
+    max-width: 704px;
+    gap: 32px;
+  }
+  .experience-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+.experience-list-item {
+    width: calc((100% - 32px) / 2);
+}
+.experience-list-item:nth-child(7) {
+    width: 100%;
+  }
+  .experience-one-img,
+  .experience-two-img,
+  .experience-five-img,
+  .experience-six-img {
+    width: 336px;
+    height: 336px;
+  }
+  .experience-three-img,
+  .experience-four-img {
+    width: 336px;
+    height: 189px;
+  }
+  .experience-item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1440px) {
+  .experience-list {
+    height: 948px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .experience-list:last-child {
+    margin-bottom: 84px;
+  }
+ .container {
+    max-width: 1312px;
+  }
+  .experience-item-img {
+    width: 416px;
+  }
+  .experience-one-img,
+  .experience-two-img,
+  .experience-five-img,
+  .experience-six-img,
+  .experience-seven-img {
+    width: 416px;
+    height: 416px;
+  }
+  .experience-three-img,
+  .experience-four-img {
+    width: 416px;
+    height: 234px;
+  }
+}
