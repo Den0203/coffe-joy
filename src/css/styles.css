@@ -28,8 +28,7 @@ body {
 }
 
 .container {
-  max-width: 100%;
-  min-width: 320px;
+  width: 100%;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
@@ -44,8 +43,6 @@ body {
 @media only screen and (min-width: 375px) {
   .container {
     max-width: 375px;
-    padding-left: clamp(16px, 4vw, 32px);
-    padding-right: clamp(16px, 4vw, 32px);
   }
 }
 
