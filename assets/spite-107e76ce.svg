@@ -1,5 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
+    <symbol id="icon-chevrons-right" viewBox="0 0 31 32">
+    <path fill="currentColor" d="m13.179 10.063 5.536 5.491-5.536 5.491 1.802 1.818 7.369-7.309-7.369-7.309-1.802 1.818z" />
+    <path fill="currentColor" d="m8.581 8.246-1.802 1.818 5.536 5.491-5.536 5.491 1.802 1.818 7.369-7.309-7.369-7.309z" /></symbol>
     <symbol id="icon-mail" viewBox="0 0 31 32">
       <path d="M25.858 5.926H5.171a2.589 2.589 0 0 0-2.586 2.586v15.515a2.589 2.589 0 0 0 2.586 2.586h20.687a2.589 2.589 0 0 0 2.586-2.586V8.512a2.589 2.589 0 0 0-2.586-2.586zm0 2.586v.661l-10.343 8.046L5.172 9.174v-.662h20.687zM5.172 24.027V12.448l9.55 7.428a1.283 1.283 0 0 0 1.588 0l9.55-7.428.003 11.579H5.174z"/>
     </symbol>
