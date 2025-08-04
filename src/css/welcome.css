@@ -71,6 +71,7 @@
     background: rgba(11, 8, 3, 0.1);
     color: #0b0803;
     border: none;
+    box-shadow: none;
 }
 .welcome-button:hover .welcome-icon,
 .welcome-button:focus .welcome-icon {
