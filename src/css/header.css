@@ -14,8 +14,9 @@
   align-items: center;
   background-color: #e0cbb4;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767.98px) {
   .container.header-container {
+    max-width: 768px;
     padding: 18px 64px 18px 64px;
   }
 }
